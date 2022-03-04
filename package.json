@@ -1,0 +1,43 @@
+{
+  "name": "price-bot-arb-autodiscovery",
+  "version": "1.0.0",
+  "description": "Queries DEX, Compares Token Prices and highlightes profitable Arbs MVP",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d0ra-1h3-3xpl0ra/price-bot-arb-autodiscovery.git"
+  },
+  "keywords": [
+    "arbs",
+    "crypto",
+    "bot",
+    "arbitrage",
+    "dex"
+  ],
+  "author": "d0ra-th3-3xpl0ra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d0ra-1h3-3xpl0ra/price-bot-arb-autodiscovery/issues"
+  },
+  "homepage": "https://github.com/d0ra-1h3-3xpl0ra/price-bot-arb-autodiscovery#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.2",
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "http": "^0.0.1-security",
+    "infura-web3-provider": "^0.0.3",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.34",
+    "node-fetch": "^3.1.1",
+    "numeral": "^2.0.6",
+    "web3": "^1.7.1"
+  }
+}
